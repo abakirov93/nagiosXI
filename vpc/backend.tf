@@ -2,10 +2,10 @@ terraform {
   required_version = "0.11.14"
 
   backend "s3" {
-    bucket = "state-class-baurzhanclass"
+    bucket = "state-baurzhan"
     key    = "path/to/my/key"
 
-    dynamodb_table = "Baurstateclass"
+    dynamodb_table = "Baurstate"
     region = "us-east-1"
   }
 }
