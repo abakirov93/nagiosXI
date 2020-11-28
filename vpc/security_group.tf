@@ -1,4 +1,4 @@
-resource "aws_security_group" "datasource_class" {
+resource "aws_security_group" "datasource_team2" {
   name        = "nagiosxi"
   description = "Allow inbound SSH/HTTP"
   vpc_id      = "${aws_vpc.nagiosxi.id}"
