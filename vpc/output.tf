@@ -15,7 +15,7 @@ output "vpc" {
 }
 
 output "vpc_sec_group" {
-  value = "${aws_security_group.datasource_class.id}"
+  value = "${aws_security_group.datasource_team2.id}"
 }
 
 output "public_subnets" {
